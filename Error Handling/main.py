@@ -87,7 +87,7 @@ def list_config_info(file):
         except json.decoder.JSONDecodeError:
             return
 
-# function to get the ticket/survey data fields to compare (returned as a List)
+# function to get the ticket/survey data fields to compare (returned as JSON object)
 def list_ticket_fields(file):
     schema = {
         "type": "object",
