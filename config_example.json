@@ -1,0 +1,29 @@
+{
+    "__comment1__": "This is a configurable file that contains information about the desired scenario for review. Details in comment #2",
+    "__comment2__": "Surveys, Ticket query searches, API tokens, data centers, Ticket/Survey data fields, Job Run Date",
+    "ticketFields": [
+        {
+            "primarySurveyEmbeddedField": "",
+            "ticketRecordField": ""
+        },
+        {
+            "primarySurveyEmbeddedField": "",
+            "ticketRecordField": ""
+        },
+        {
+            "primarySurveyEmbeddedField": "",
+            "ticketRecordField": ""
+        },
+        {
+            "primarySurveyEmbeddedField": "",
+            "ticketRecordField": ""
+        }
+    ],
+    "config": {
+        "apiToken": "",
+        "dataCenter": "",
+        "surveyId": "",
+        "ticketQuerySearch": "",
+        "lastRunDate": "2021-08-20T00:00:00.000Z"
+    }
+}
