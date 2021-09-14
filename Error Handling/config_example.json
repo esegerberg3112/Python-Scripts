@@ -3,27 +3,27 @@
     "__comment2__": "Surveys, Ticket query searches, API tokens, data centers, Ticket/Survey data fields, Job Run Date",
     "ticketFields": [
         {
-            "primarySurveyEmbeddedField": "",
-            "ticketRecordField": ""
+            "primarySurveyEmbeddedField": "TKT_CURRENTSTATUS",
+            "ticketRecordField": "status"
         },
         {
-            "primarySurveyEmbeddedField": "",
-            "ticketRecordField": ""
+            "primarySurveyEmbeddedField": "TKT_CREATEDDATETIME",
+            "ticketRecordField": "createdAt"
         },
         {
-            "primarySurveyEmbeddedField": "",
-            "ticketRecordField": ""
+            "primarySurveyEmbeddedField": "TKT_CLOSEDDATETIME",
+            "ticketRecordField": "closedAt"
         },
         {
-            "primarySurveyEmbeddedField": "",
-            "ticketRecordField": ""
+            "primarySurveyEmbeddedField": "TKT_ID",
+            "ticketRecordField": "key"
         }
     ],
     "config": {
         "apiToken": "",
-        "dataCenter": "",
+        "dataCenter": "iad1",
         "surveyId": "",
-        "ticketQuerySearch": "",
+        "ticketQuerySearch": "Qualtrics",
         "lastRunDate": "2021-08-20T00:00:00.000Z"
     }
 }
