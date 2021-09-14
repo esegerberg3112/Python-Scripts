@@ -3,19 +3,19 @@
     "__comment2__": "Surveys, Ticket query searches, API tokens, data centers, Ticket/Survey data fields, Job Run Date",
     "ticketFields": [
         {
-            "primarySurveyEmbeddedField": "TKT_CURRENTSTATUS",
+            "primarySurveyEmbeddedField": "Ticket_Status",
             "ticketRecordField": "status"
         },
         {
-            "primarySurveyEmbeddedField": "TKT_CREATEDDATETIME",
+            "primarySurveyEmbeddedField": "Ticket_CreatedDate",
             "ticketRecordField": "createdAt"
         },
         {
-            "primarySurveyEmbeddedField": "TKT_CLOSEDDATETIME",
+            "primarySurveyEmbeddedField": "Ticket_ClosedDate",
             "ticketRecordField": "closedAt"
         },
         {
-            "primarySurveyEmbeddedField": "TKT_ID",
+            "primarySurveyEmbeddedField": "Ticket_Key",
             "ticketRecordField": "key"
         }
     ],
