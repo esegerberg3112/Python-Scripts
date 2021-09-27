@@ -239,7 +239,7 @@ def main():
         for root, dirs, files in os.walk(config_files_path):
             config_file_list = [os.path.join(root, name) for name in files]
     except StopIteration:
-        print("That directory path doesn't exist. Please update in code (line 211).")
+        print("That directory path doesn't exist. Please update in code (line 234).")
 
     # check if no files
     if len(config_file_list) == 0:
