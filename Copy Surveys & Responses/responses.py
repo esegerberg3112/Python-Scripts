@@ -89,7 +89,7 @@ def get_export_file(obj):
     request_download = requests.get(export_file_url, headers=headers, stream=True)
 
     # file path where the unzipped files will go, save to the SurveyObject
-    directory_path = "/Users/esegerberg/PycharmProjects/PublishingTesting/ResponseFiles"
+    directory_path = ""
     # the actual file path will be the directory + the name of the original survey. Save that to the object
     survey_name = obj.surveyName
     obj.responsePath = directory_path + "/" + survey_name + ".csv"
