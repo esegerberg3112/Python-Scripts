@@ -50,13 +50,13 @@ def runner(func_name, obj_list):
 
 def main():
     # defining environment variables for the source and destination brands
-    os.environ["source_api_token"] = "R41geiwQER24QidpSsYf886PghU10OtunwNe7cus"
-    os.environ["dest_api_token"] = "R41geiwQER24QidpSsYf886PghU10OtunwNe7cus"
-    os.environ["source_dc"] = "sjc1"
-    os.environ["dest_dc"] = "sjc1"
+    os.environ["source_api_token"] = ""
+    os.environ["dest_api_token"] = ""
+    os.environ["source_dc"] = ""
+    os.environ["dest_dc"] = ""
 
-    # specify path for file that contains survey ID
-    file_path = '/Users/esegerberg/PycharmProjects/PublishingTesting/Testing_Script.csv'
+    # specify path for file that contains survey IDs
+    file_path = ''
 
     # process the file and try creating a data frame object for the survey column
     try:
